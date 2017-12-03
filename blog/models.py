@@ -1,7 +1,11 @@
 from django.db import models
 from django.utils import timezone
+# from twisted.mail.smtp import User
+from django.contrib.auth.models import User
+
 
 class Post(models.Model):
+    # author = models.ForeignKey(User)
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     text = models.TextField()
