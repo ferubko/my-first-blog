@@ -18,6 +18,11 @@ h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
+h1 a {
+    color: #FCA205;
+    font-family: 'Lobster';
+}
+
 .date {
     float: right;
     color: #828282;
