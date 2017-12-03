@@ -1,7 +1,7 @@
-from django.db import models
-from django.utils import timezone
 # from twisted.mail.smtp import User
 from django.contrib.auth.models import User
+from django.db import models
+from django.utils import timezone
 
 
 class Post(models.Model):
