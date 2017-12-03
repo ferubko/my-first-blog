@@ -25,7 +25,7 @@ SECRET_KEY = 'g^4^mpssg4z4cs!zl2!&evj3fff0s&ngp@&dq!_4g^gw-qrho='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sferubko.pythonanywhere.com' ]
 
 
 # Application definition
