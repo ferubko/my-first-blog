@@ -44,7 +44,10 @@ h1 a {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    border: 4px inset black;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .post h1 a, .post h1 a:visited {
